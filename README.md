@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Node.js API "КЛАДР в облаке"
 ============================
 
@@ -46,3 +47,9 @@ var ret = ApiQuery('51dfe5d42fb2b43e3300006e', '86a2c2a06f1b2451a87d05512cc2c3ed
 `````
 
 [1]: http://kladr-api.ru/        "КЛАДР API"
+=======
+kladrapi-nodejs
+===============
+
+Node.js модуль для поиска по базе адресов КЛАДР через сервис kladr-api.ru
+>>>>>>> e9188c0ba8f0441c72a30b6d99ec62201de8a34e
