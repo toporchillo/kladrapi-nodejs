@@ -1,0 +1,24 @@
+{
+  "name": "kladrapi",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alexander Toporkov",
+    "email": "toporchillo@gmail.com"
+  },
+  "description": "Provides access to database of Russian addresses.",
+  "main": "index",
+  "keywords": [
+    "address",
+    "Russia",
+    "search"
+  ],
+  "homepage": "http://kladr-api.ru/integration/",
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/toporchillo/kladrapi-nodejs.git"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
