@@ -58,11 +58,11 @@ exports.ApiQuery = function ApiQuery(token, key, query, cb) {
 			}		
 			try {
 				var ret = JSON.parse(data);
-				cb(null, ret);
 			}
 			catch (err) {
-				cb(new Error('Сервис вернул неверный ответ, ожидался JSON', 'APIError'));
+				return cb(new Error('Сервис вернул неверный ответ, ожидался JSON', 'APIError'));
 			}
+			cb(null, ret);
 		})
 	});
 
